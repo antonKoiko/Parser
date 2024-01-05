@@ -8,7 +8,6 @@ def signal_handler(sig, frame):
     sys.exit(0)
 
 def print_time():
-
     while True:
         print(time.ctime())
         time.sleep(10)
