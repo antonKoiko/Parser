@@ -9,7 +9,8 @@ def signal_handler(sig, frame):
 
 def print_time():
     while True:
-        print(time.ctime())
+        current_time = time.strftime("%d-%m-%Y %H:%M:%S", time.localtime())
+        print(f"Current time: {current_time}")
         time.sleep(10)
 
 def main():
