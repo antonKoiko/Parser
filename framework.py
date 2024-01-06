@@ -14,6 +14,12 @@ def signal_handler(sig, frame):
     print("\nYou pressed Ctrl+C or sent a SIGTERM signal. Shutting down gracefully...")
     sys.exit(0)
 
+def print_time():
+    while True:
+        current_time = time.strftime("%d-%m-%Y %H:%M:%S", time.localtime())
+        print(f"Current time: {current_time}")
+        time.sleep(10)
+
 def main():
     # Get the interval from the environment variable or use the default (10 seconds)
     interval = int(os.environ.get('INTERVAL', 10))
