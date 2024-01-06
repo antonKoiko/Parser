@@ -5,6 +5,7 @@ WORKDIR /app
 
 COPY framework.py /app/framework.py
 
-ENV PYTHONUNBUFFERED=1
+
+ENV INTERVAL 10
 
 CMD ["python", "framework.py"]
