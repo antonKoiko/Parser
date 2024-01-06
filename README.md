@@ -1,40 +1,41 @@
 # News Parser
 
-## Описание проекта
+## Project Description
 
-News Parser - это инструмент для автоматизированного поиска новостей на различных новостных сайтах с использованием ключевых слов, предоставленных пользователем. Проект разработан для облегчения процесса отслеживания актуальной информации на интернет-ресурсах.
+News Parser is a tool designed for automated news searching on various news websites using user-provided keywords. The project is developed to streamline the process of tracking current information on the internet.
 
-## Особенности
+## Features
 
-- **Поиск новостей:** Производит поиск новостей на различных новостных сайтах.
-- **Настройка ключевых слов:** Пользователь может указать ключевые слова для уточнения поиска.
-- **Гибкость:** Легко расширяемый для добавления поддержки новых новостных ресурсов.
+- **News Search:** Conducts searches for news on various news websites.
+- **Keyword Customization:** Users can specify keywords to refine their search.
+- **Flexibility:** Easily extendable to add support for new news resources.
 
-## Установка
+## Installation
 
-1. Клонируйте репозиторий:
+Clone the repository:
 
    ```bash
-   git clone https://github.com/antonKoiko/Parser
+   git clone https://github.com/your-username/news-parser.git
    ```
 
-## Использование
+## Usage
 
-1. Запустите парсер:
+1. Run the parser:
 
    ```bash
    python main.py
    ```
 
-2. Введите ключевые слова для поиска новостей.
+2. Enter keywords to search for news.
 
-3. Парсер начнет поиск и выводить найденные новости.
+3. The parser will start searching and display the found news.
 
+## Contributing
 
-## Вклад в проект
+If you have ideas for improving the project or want to add support for new features, we welcome your pull requests. Please follow the code formatting standards.
 
-Если у вас есть идеи по улучшению проекта или вы хотите добавить поддержку новых функций, будем рады вашим pull request'ам. Пожалуйста, следуйте стандартам оформления кода.
+## License
 
-## Лицензия
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Этот проект лицензирован в соответствии с лицензией MIT - подробности см. в файле [LICENSE](LICENSE).
