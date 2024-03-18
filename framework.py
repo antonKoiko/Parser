@@ -22,7 +22,7 @@ def print_time():
 
 def main():
     # Get the interval from the environment variable or use the default (10 seconds)
-    interval = int(os.environ.get('INTERVAL', 10))
+    interval = int(os.environ.get('INTERVAL',10))
 
     # Register signal handlers
     signal.signal(signal.SIGINT, signal_handler)
